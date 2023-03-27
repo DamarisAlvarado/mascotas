@@ -1,0 +1,165 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bree+Serif&family=Covered+By+Your+Grace&family=Handlee&family=Londrina+Outline&family=Monoton&family=Poppins&family=Press+Start+2P&family=Train+One&family=Zilla+Slab:wght@300&display=swap');
+
+body{
+    background-image: url("/destok-editada.png");
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+div{
+    position: absolute;
+    top: 7.5%;
+    left: 30%;
+    right: 30%;
+    width: 45rem;
+    height: 45rem;
+    border-radius: 8rem;
+   background-color: wheat ;
+   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+form{
+    align-items: center;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+#logo{
+    height: 8rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+#basico{
+    margin: 1rem;
+    padding: 1rem;
+    padding-left: 2rem;
+    border: none;
+    border-radius: 5rem;
+    background-color: rgb(255, 255, 255,50%);
+    width: 20rem;
+    height: 2.3rem;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+}
+.boton{
+    background-color: #DC4D41;
+    border: none ;
+    width: 22rem;
+    height: 3.3rem;
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5rem;
+}
+
+
+
+
+
+@media  screen and (max-width: 1240px ){
+  
+    div{
+        height: 85%;
+        width: 90%;
+        left: 2%;
+        margin-left: 1rem;
+     }
+        #basico{
+            margin: 1rem;
+            padding: 1rem;
+            padding-left: 2rem;
+            border: none;
+            border-radius: 5rem;
+            background-color: rgb(255, 255, 255,50%);
+            width: 15rem;
+            height: 2.3rem;
+            font-size: 1.3rem;
+            font-family: 'Poppins', sans-serif;
+        }
+        .boton{
+            margin-top: 2rem;
+        background-color: #DC4D41;
+        border: none ;
+        width: 18rem;
+        height: 3.3rem;
+        font-size: 1.4rem;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 5rem;
+    
+    
+     }
+    
+ }
+ @media  screen and (max-width: 960px ){
+    div{
+        height: 90%;
+        width: 65%;
+        left: 2%;
+        margin-left: 10rem;
+     }
+        #basico{
+            margin: 1rem;
+            padding: 1rem;
+            padding-left: 2rem;
+            border: none;
+            border-radius: 5rem;
+            background-color: rgb(255, 255, 255,50%);
+            width: 15rem;
+            height: 2.3rem;
+            font-size: 1.3rem;
+            font-family: 'Poppins', sans-serif;
+        }
+        .boton{
+        background-color: #DC4D41;
+        border: none ;
+        width: 18rem;
+        height: 3.3rem;
+        font-size: 1.4rem;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 5rem;
+    
+    
+     }
+   
+ }
+
+ @media  screen and (max-width: 500px ){
+    
+body{
+    background-image: url("/fondo\ -\ Editada.png");
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+    div{
+       height: 85%;
+       width: 90%;
+       left: 2%;
+       margin-left: 1rem;
+       background-color: transparent;
+    }
+    #basico{
+        margin: 1rem;
+        padding: 1rem;
+        padding-left: 2rem;
+        border: none;
+        border-radius: 5rem;
+        background-color: rgb(255, 255, 255,50%);
+        width: 15rem;
+        height: 2.3rem;
+        font-size: 1.3rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    .boton{
+        margin-top: 2rem;
+    background-color: #DC4D41;
+    border: none ;
+    width: 18rem;
+    height: 3.3rem;
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5rem;
+
+
+ }
+ }

@@ -1,0 +1,86 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bree+Serif&family=Covered+By+Your+Grace&family=Handlee&family=Londrina+Outline&family=Monoton&family=Poppins&family=Press+Start+2P&family=Train+One&family=Zilla+Slab:wght@300&display=swap');
+ @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+ body{
+     background-image: url("/destok-editada.png");
+     background-repeat: no-repeat;
+     background-size: cover ;
+     user-select: none; 
+     
+ }
+ .contenedor{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ img{
+    margin-top: -5.5rem;
+    height: 18rem;
+    width: 20rem;
+    margin-bottom: -5rem;
+ }
+
+ .menu{
+    text-align: center;
+ }
+ .menu button{
+    color: white;
+    width: 18rem;
+    height: 12rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    
+ }
+ .perfil{
+    background-image: url("/Bperfil.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.8rem;
+ }
+
+ .contacto{
+    background-image: url("/Bcontacto.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.8rem;
+ }
+ 
+ .enfer{
+    background-image: url("/benfermedades.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.8rem;
+ }
+ .cuidados{
+    background-image: url("/bcuidados.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.8rem;
+ }
+ .alimen{
+    background-image: url("/bAlimentacion.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.8rem;
+ }
+ .confi{
+    background-image: url("/bconfiguracion.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.8rem;
+ }
+ .cerrar{
+    margin-top: 0.5rem;
+    height: 3.5rem;
+    width: 25rem;
+    background-color:  #FBB540F0;
+    border: none;
+    border-radius: 5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+ }
+
+

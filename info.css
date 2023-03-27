@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bree+Serif&family=Covered+By+Your+Grace&family=Handlee&family=Londrina+Outline&family=Monoton&family=Poppins&family=Press+Start+2P&family=Tiro+Devanagari+Hindi&family=Train+One&family=Zilla+Slab:wght@300&display=swap');
+
+body{
+    background-image: url('/destok-editada.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagenv{
+    text-align: center;
+}
+.imagen{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 10rem;
+    margin-top: 1rem;
+}
+
+.informacion{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info{
+    text-align: center;
+    padding-left: 1rem;
+    background-color: #FBB540F0;
+    height: 9rem;
+    width: 35rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.temperamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.uno , .dos{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+   
+}
+.t{
+    font-family: 'Poppins', sans-serif;
+    background-color: #DC4D41;
+    text-align: center;
+    margin: 0.5rem;
+    height: 3.5rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+.boton{
+    background-color: #FBB540F0;
+    height: 3rem;
+    width: 20%;
+    border: none;
+    border-radius: 5rem;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 1.2em;
+    text-align: center;
+   }
+
+   h3{
+    font-family: 'Poppins', sans-serif;
+   }
+
+
+   @media  screen and (max-width: 1024px ){
+    body{
+        background-image: url('/fondo\ -\ Editada.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .imagen{
+        height: 20rem;
+        width: 20rem;
+    }
+ 
+    .info{
+
+        height: 13rem;
+        width: 30rem;
+        padding: 0.5rem;
+        font-size: 1.5rem;
+    }
+ 
+    .t{
+
+        height: 6rem;
+        width: 13rem;
+        font-size: 1.5em;
+    }
+    .boton{
+        height: 3rem;
+        width: 40%;
+       }
+       .temperamento2{
+        font-size: 1.5rem;
+       }
+       .boton{
+       height: 5rem;
+        width: 40%;
+        font-size: 1.8rem;
+   
+       }
+}
+
+
+
+
+@media  screen and (max-width: 500px ){
+    body{
+        background-image: url('/fondo\ -\ Editada.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .imagen{
+        height: 10rem;
+        width: 10rem;
+    }
+ 
+    .info{
+
+        height: 10rem;
+        width: 20rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+ 
+    .t{
+      
+        margin: 0.3rem;
+        height: 4rem;
+        width: 8rem;
+    }
+    .boton{
+        height: 3rem;
+        width: 40%;
+        font-size: 1.5em;
+       }
+       h3{
+        font-family: 'Poppins', sans-serif;
+        font-size: 10rem;
+       }
+      
+
+}

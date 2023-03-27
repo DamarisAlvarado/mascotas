@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bree+Serif&family=Covered+By+Your+Grace&family=Handlee&family=Londrina+Outline&family=Monoton&family=Poppins&family=Press+Start+2P&family=Train+One&family=Zilla+Slab:wght@300&display=swap');
+
+body {margin:0;padding:50px;
+    background-image: url('/destok-editada.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table.rwd_auto {width:100%;margin:0 0 50px 0 ; }
+		th,.rwd_auto th {background:rgb(255, 255, 255);padding:5px;text-align:center;}
+	 td,.rwd_auto td {padding:1rem;text-align:center}
+		 tr:last-child td, .rwd_auto tr:last-child td{border:0}
+		
+	.rwd {width:100%;overflow:auto;}
+		.rwd table.rwd_auto {width:auto;min-width:100%}
+			.rwd_auto th,.rwd_auto td {white-space: nowrap;}
+			
+	@media only screen and (max-width: 760px), (min-width: 768px) and (max-width: 1024px)  
+	{
+	
+		table.width200, .width200 thead, .width200 tbody, .width200 th, .width200 td, .width200 tr { display: block; }
+		
+		.width200 thead tr { position: absolute;top: -9999px;left: -9999px; }
+		
+		.width200 tr { border: 1px solid #ccc; }
+		
+		.width200 td { border: none;border-bottom: 1px solid #ccc; position: relative;padding-left: 50%;text-align:left }
+		
+		.width200 td:before {  position: absolute; top: 6px; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap;}
+		
+		.descarto {display:none;}
+		.fontsize {font-size:10px}
+	}
+
+    .rwd{
+        text-align: center;
+    }
+    .titulo{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 2.5rem;
+    }
+    tr{
+        font-family: 'Poppins', sans-serif;
+    }
+   .contacto1{
+    background-color: #FBB540;
+   }
+   .contacto2{
+    background-color: #DC4D41;
+   }
+   .boton{
+    background-color: #DC4D41;
+    height: 3rem;
+    width: 20%;
+    border: none;
+    border-radius: 5rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+   }
+	/* Smartphones (portrait and landscape) ----------- */
+	@media only screen and (min-width : 320px) and (max-width : 480px) 
+	{
+		body { width: 320px; }
+		.descarto {display:none;}
+        .boton{
+            background-color: #DC4D41;
+            height: 3rem;
+            width: 30%;
+            border: none;
+            border-radius: 5rem;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            font-size: 0.9rem;
+            text-align: center;
+           }
+	}
+	
+	/* iPads (portrait and landscape) ----------- */
+	@media only screen and (min-width: 768px) and (max-width: 1024px) 
+	{
+		body { width: 495px; }
+		.descarto {display:none;}
+		.fontsize {font-size:10px}
+	}
+
+    
+    @media  screen and (max-width: 500px ){
+
+        body {
+            background-image: url('/fondo\ -\ Editada.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    
+    }

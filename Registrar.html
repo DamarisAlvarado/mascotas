@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLUB DE MASCOTAS</title>
+    <link rel="stylesheet" href="/estilos/registrar.css">
+    <script src="/JS/registrar.js"></script>
+    <link rel="shortcut icon" href="/icon.svg">
+</head>
+<body>
+    
+    <div>
+       
+        <form id="form" method="post"  name="myform">
+            <img id="logo" src="/logo.svg" alt="Club de mascotas">
+            <input   placeholder="Email" type="email" name="email" id="email"/>
+            <input  placeholder="Contraseña" type="password" name="pass" id="pass"/>
+            <input  placeholder="Nombre de la mascota" type="text" name="nombremascota" id="nombremascota"/>
+            <select name="Raza" id="raza">
+                <option value="0">Raza</option>
+                <option value="Pitbull">Pitbull</option>
+                <option value="Pug">Pug</option>
+                <option value="PastorA">Pastor Aleman</option>
+            </select>
+            <input   placeholder="Edad" type="number" name="username" id="edad"/>
+           <section>
+            <select id="sexo" name="sexo">
+                <option value="0">Sexo</option>
+                <option value="Hembra">Hembra</option>
+                <option value="Macho">Macho</option>
+            </select>
+            <select id="tamaño" name="Tamaño">
+                <option value="0">Tamaño</option>
+                <option value="Chico">Chico</option>
+                <option value="Mediano">Mediano</option>
+                <option value="Grande">Grande</option>
+            </select>
+           </section>
+            <input class="boton" id="res" type="button" value="Registrar">
+        
+           
+    
+            <h4>¿Ya tienes cuenta? <a onclick="entrar()"><strong>ENTRAR</strong></a> </h4>  
+        </form>
+    
+    </div>
+</body>
+</html>

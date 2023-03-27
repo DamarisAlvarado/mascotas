@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bree+Serif&family=Covered+By+Your+Grace&family=Handlee&family=Londrina+Outline&family=Monoton&family=Poppins&family=Press+Start+2P&family=Tiro+Devanagari+Hindi&family=Train+One&family=Zilla+Slab:wght@300&display=swap');
+
+body{
+    background-image: url('/destok-editada.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contendor{
+
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.contenedorinfo{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 1rem;
+}
+
+#info{
+    margin-top: 2rem;
+    width: 40%;
+    background-color: white;
+    border-radius: 1.5rem;
+    border-top: 0.3rem solid #FFB12F;
+    border-bottom: 0.3rem solid #FFB12F;
+}
+.icon{
+    margin-right: -25rem;
+    margin-top: -2rem;
+    height: 4rem;
+}
+h4{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-size: 1.3rem;
+}
+h1{
+    margin-top: 2rem;
+    margin-bottom: -0.1rem;
+    text-align: center;
+    padding: 0.2rem;
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+p{
+    text-align: justify;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    background-color:#DC4D41;
+    height: 3rem;
+    width: 20%;
+    border: none;
+    border-radius: 5rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+@media  screen and (max-width: 960px ){
+   
+    #info{
+        width: 80%;
+        background-color: white;
+        border-radius: 1.5rem;
+        border-top: 0.3rem solid #FFB12F;
+        border-bottom: 0.3rem solid #FFB12F;
+    }
+    .icon{
+        margin-right: 1rem;
+        margin-top: -2rem;
+        height: 4rem;
+    }
+   
+    button{
+        
+        height: 4rem;
+        width: 60%;
+        font-size: 1.5rem;
+       
+    }
+  
+}
+
+@media  screen and (max-width: 500px ){
+    #info{
+        width: 90%;
+        background-color: white;
+        border-radius: 1.5rem;
+        border-top: 0.3rem solid #FFB12F;
+        border-bottom: 0.3rem solid #FFB12F;
+    }
+    .icon{
+        margin-right: 1rem;
+        margin-top: -2rem;
+        height: 4rem;
+    }
+   
+    button{
+        
+        height: 4rem;
+        width: 60%;
+        font-size: 1.5rem;
+       
+    }
+
+}
